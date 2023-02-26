@@ -1,0 +1,28 @@
+import numpy as np
+import cv2
+import time
+
+
+"""
+cap = cv2.VideoCapture(0) # note you may need to pass 1 instead of 0 into this to get your camera  
+
+cap.set(3,320)     #horizontal pixels
+cap.set(4,240)     #vertical pixels
+# cap.set(5, 15)      #frame rate
+time.sleep(2)       #trying to solve a delay issue ... never mind this
+
+
+#acquire the video from the camera
+while(cap.isOpened()):
+    ret, frame = cap.read()
+    cv2.imshow("captured video", frame)
+
+    if cv2.waitKey(33) & 0xFF == ord('r'):
+        cap.set(3, 640)
+        cap.set(4, 480)
+
+    if cv2.waitKey(33) & 0xFF == ord('q'):
+        break
+cap.release()
+cv2.destroyAllWindows()
+"""
